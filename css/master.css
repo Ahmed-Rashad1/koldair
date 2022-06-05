@@ -344,7 +344,7 @@ body {
         display: block;
         position: absolute;
         top: 15px;
-        width: 40%;
+        width: 60%;
         right: 100px;
         margin: 5px 0;
         border-radius: var(--main-border);
@@ -377,7 +377,6 @@ body {
     }
     .header .toggle-menu {
         display: inline-block;
-        
     }
 }
 .intro {
