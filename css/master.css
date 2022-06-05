@@ -690,17 +690,17 @@ body {
         height: 650px;
     }
     .popup-box img {
-        height: 70%;
+        height: 65%;
         width: 100%;
     }
 }
 @media (max-width: 575px) {
     .popup-box {
         width: 90%;
-        height: 55%;
+        height: 65%;
     }
     .popup-box img {
-        height: 70%;
+        height: 65%;
         width: 100%;
     }
 }
