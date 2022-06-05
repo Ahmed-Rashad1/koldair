@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Koldair website</title>
+</head>
+<body>
+    <!-- start settings box -->
+    <div class="settings-box">
+        <div class="toggle-settings">
+            <i class="fa fa-gear"></i>
+        </div>
+        <div class="settings-container">
+            <div class="option-box">
+                <h4>colors</h4>
+                <ul class="colors-list">
+                  <li data-color="#E91E63"></li>
+                  <li data-color="#138f65"></li>
+                  <li class="active" data-color="darkblue"></li>
+                  <li data-color="#ff9800"></li>
+                  <li data-color="#9b30ff"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>random backgrounds</h4>
+                <div class="random-backgrounds">
+                  <span class="no active" data-background="no"></span>
+                  <span class="yes" data-background="yes"></span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>show bullets</h4>
+                <div class="bullets-option">
+                  <span class="no" data-display="none"></span>
+                  <span class="yes active" data-display="block"></span>
+                </div>
+            </div>
+            <button class="reset-options">Reset Options</button>
+        </div>
+    </div>
+    <!-- end settings box -->
+    <!-- start nav bullets -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".landing">
+        <div class="tooltip">Home</div>
+      </div>
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">About Us</div>
+      </div>
+      <div class="bullet" data-section=".specifications">
+        <div class="tooltip">specifics</div>
+      </div>
+      <div class="bullet" data-section=".gallery">
+        <div class="tooltip">Models</div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="tooltip">About Minlo</div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="tooltip">Features</div>
+      </div>
+      <div class="bullet" data-section=".contact">
+        <div class="tooltip">Contact Us</div>
+      </div>
+    </div>
+    <!-- end nav bullets -->
+    <!-- start landing -->
+    <div class="landing">
+      <div class="overlay"></div>
+      <div class="container">
+        <header class="header">
+            <div class="logo">
+              <img class="img" src="imgs/logo.png" alt="">
+            </div>
+            <div class="links-container">
+              <ul class="links">
+                <li class="active"><a href="#" data-section=".landing">Home</a></li>
+                <li><a href="#" data-section=".about-us">About</a></li>
+                <li><a href="#" data-section=".models">Models</a></li>
+                <li><a href="#" data-section=".features">Features</a></li>
+                <li><a href="#" data-section=".timeline">About Minlo</a></li>
+                <li><a href="#" data-section=".specifications">Specifications</a></li>
+                <li><a href="#" data-section=".contact">Contact Us</a></li>
+              </ul>
+              <button class="toggle-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+        </header>
+      </div>
+      <div class="intro">
+        <h1>That's <span><i><b>Koldair</i></b></span> Company</h1>
+        <p>We are the first and special company in Egypt make cooler despenser</p>
+      </div>
+    </div>
+    <!-- end landing -->
+    <!-- start About Us -->
+      <div class="about-us">
+        <div class="container">
+          <div class="heading">
+            <h2>About Us</h2>
+          </div>
+          <div class="content-box">
+            <div class="info-box">
+              <p>we have a great experience on this fead because we started since 1970 and our product has high quality and stability</p>
+            </div>
+            <div class="image-box">
+              <img src="imgs/backg/011.jpg" alt="">
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- end About Us -->
+
+    <!-- start our models -->
+    <div class="models">
+      <div class="container">
+        <div class="heading">
+          <h2>Models</h2>
+        </div>
+        <div class="imgs-box">
+          <img src="imgs/01.jpeg" alt="Koldair water Despenser B1.1" data-descreption="cold and hot water but not has a refrigerator">
+          <img src="imgs/02.jpeg" alt="Koldair water Despenser B2.1" data-descreption="cold and hot water but not has a refrigerator">
+          <img src="imgs/03.jpg" alt="Koldair water Despenser B3.1" data-descreption="cold and hot water but not has a refrigerator">
+          <img src="imgs/04.jpg" alt="Koldair water Despenser Bfw1.1" data-descreption="cold and hot water it has refrigerator and wheel">
+          <img src="imgs/05.jpeg" alt="Koldair water Despenser Bfw2.1" data-descreption="cold and hot water it has refrigerator and wheel">
+          <img src="imgs/06.jpeg" alt="Koldair water Despenser Bfw3.1" data-descreption="cold and hot water it has refrigerator and wheel">
+          <img src="imgs/07.jpeg" alt="Koldair water Despenser B1.4" data-descreption="cold and hot water but not has a refrigerator">
+          <img src="imgs/08.jpeg" alt="Koldair water Despenser B1.1" data-descreption="cold and hot water but not has a refrigerator">
+        </div>
+      </div>
+    </div>
+    <!-- end our models -->
+
+    <!-- start features  -->
+    <div class="features">
+      <div class="container">
+        <div class="heading">
+          <h2>Product Features</h2>
+        </div>
+        <div class="features-content">
+          <div class="feat-box">
+            <div class="icon">
+              <img src="imgs/feat/turbo.jpg" alt="">
+            </div>
+            <h4>Turbo Cool</h4>
+            <p>We are professional marketeers, we will do anything you imagine in no time</p>
+          </div>
+          <div class="feat-box">
+            <div class="icon">
+              <img src="imgs/feat/electric.jpg" alt="">
+            </div>
+            <h4>Safety Fuse</h4>
+            <p>We are professional marketeers, we will do anything you imagine in no time</p>
+          </div>
+          <div class="feat-box">
+            <div class="icon">
+              <img src="imgs/feat/2years.jpg" alt="">
+            </div>
+            <h4>Warrenty</h4>
+            <p>We are professional marketeers, we will do anything you imagine in no time</p>
+          </div>
+          <div class="feat-box">
+            <div class="icon">
+              <img src="imgs/feat/lock.jpg" alt="">
+            </div>
+            <h4>Lock For Hot Water </h4>
+            <p>We are professional marketeers, we will do anything you imagine in no time</p>
+          </div>
+          <div class="feat-box">
+            <div class="icon">
+              <img src="imgs/feat/wheel.jpg" alt="">
+            </div>
+            <h4>Wheel</h4>
+            <p>We are professional marketeers, we will do anything you imagine in no time</p>
+          </div>
+          <div class="feat-box">
+            <div class="icon">
+              <img src="imgs/feat/minlo.jpg" alt="">
+            </div>
+            <h4>Owner</h4>
+            <p>We are professional marketeers, we will do anything you imagine in no time</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end features  -->
+
+    <!-- start about minlo  -->
+    <div class="timeline">
+      <div class="container">
+        <div class="heading">
+          <h2>About Minlo</h2>
+        </div>
+        <div class="timeline-content">
+          <div class="year">2001</div>
+          <div class="left">
+            <div class="content">
+              <h3>Tank Brand</h3>
+              <p>Later in 2001, the product was re-branded under the brand name (TANK). TANK soon became the market leader in the water coolers category in Egypt, with its new design and sizes. By time and due to the frequent high growth level the company was achieving year over year, TANK was ready to spin off and become a stand-alone company.</p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="year">2005</div>
+          <div class="right">
+            <div class="content">
+              <h3>Minlo Company</h3>
+              <p>In 2005, minlo was officially announced as a stand-alone company handling all operations for Tank coolers and became the market leader in the Egypt.</p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>          
+          <div class="year">2007</div>
+          <div class="clear-fix"></div>
+          <div class="left">
+            <div class="content">
+              <h3>Ice Box Range</h3>
+              <p>2007 was a new era for Minlo as it extended its coolers category by launching a whole new category of ice boxes.</p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="left">
+            <div class="content">
+              <h3>Filter Range</h3>
+              <p>Meanwhile, minlo also expanded its water solutions by entering the water treatment industry through introducing its residential water filters, both mechanical and reverse osmosis categories.</p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>          
+          <div class="year">2008</div>
+          <div class="clear-fix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Braun Distribution</h3>
+              <p>In 2008 minlo became the sole distributor for Procter & Gamble (P&G) their (BRAUN) brand in Egypt.</p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="year">2010</div>
+          <div class="left">
+            <div class="content">
+                <h3>Koldair Aquired</h3>
+                <p>In 2010 minlo acquired the largest brand of electric water coolers in Egypt: (KOLDAIR), and introduced a range of water dispensers and stainless steel water coolers, further expanding its water solutions range and minlo's leadership in the market.</p>
+              </div>
+            </div>
+          <div class="clear-fix"></div>
+          <div class="year">2012</div>
+          <div class="right">
+            <div class="content">
+              <h3>Uno Brand</h3>
+              <p>minlo also owns the famous brand UNO.</p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Minlo New Achievement</h3>
+              <p>Within a couple of years minlo became the market leader (#1) not only in the coolers and ice box categories but also in the water filters and dispensers industry.</p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="year">2017</div>
+          <div class="left">
+            <div class="content">
+              <h3>Tank Localization</h3>
+              <p>Filters Cartridge Localization:
+                As Tank Filters & Cartridges celebrated their 10th Year in the Market, full localization was introduced in 2017, producing the Tank Cartridges at minlo’s State of The Art Manufacturing Facility with International Standards.</p>
+              </div>
+            </div>
+            <div class="clear-fix"></div>
+            <div class="year">2018</div>
+            <div class="right">
+              <div class="content">
+                <h3>Koldair New Range</h3>
+                <p>Koldair Dispenser Localization and New Range Introductory
+                  Yet another milestone for minlo was the full Water Dispensers localization for its Brand Koldair and the introductory of a new Product Portfolio.</p>
+              </div>
+            </div>
+            <div class="clear-fix"></div>
+            <div class="year">2019</div>
+            <div class="left">
+              <div class="content">
+                <h3>Koldair KAF Launch</h3>
+                <p>- Koldair AC Launch <br>
+                  - New Bottles Range Introductory <br>
+                  Increasing Koldair’s Brand Equity, 2019 marked Koldair’s Category expansion in to the A/Cs Market with a highly performing Air Conditioners Product Range. Tank’s new breakthrough was in its Water Bottles Category, introducing a newly designed Personal Insulated Water Bottle with unique features and benefits that is one of it’s kind in the market.</p>
+              </div>
+            </div>
+          <div class="clear-fix"></div>
+          <div class="left">
+            <div class="content">
+              <h3>Now</h3>
+              <p>Today, minlo employs approximately 1,000 staff operating in Egypt. <br>
+                minlo’s main Export Markets are: Levant, KSA, Morocco and Central Africa.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end about minlo  -->
+
+    <!-- start our specifications-->
+    <div class="specifications">
+      <div class="container">
+        <div class="heading">
+          <h2>Specifications</h2>
+        </div>
+        <div class="specifications-box">
+          <div class="spec-name">Cooling Speed</div>
+          <div class="spec-progress">
+            <span data-progress="90%"></span>
+          </div>
+          <div class="spec-text">
+            <p>koldair is the faster cooler on 3.5 leter per hour for cooling speed while other brands has only 2 leter per hour that equal from 6 ring iron around bottle</p>
+          </div>
+        </div>
+        <div class="specifications-box">
+          <div class="spec-name">Cooling degree</div>
+          <div class="spec-progress">
+            <span data-progress="95%"></span>
+          </div>
+          <div class="spec-text">
+            <p>cooling degree is 6c other brands has 10c  only</p>
+          </div>
+        </div>
+        <div class="specifications-box">
+          <div class="spec-name">Material</div>
+          <div class="spec-progress">
+            <span data-progress="92%"></span>
+          </div>
+          <div class="spec-text">
+            <p>our product made of high quality materials in faucets that's very durable and vessel made of galvanized stainless to save water for long hours</p>
+          </div>
+        </div>
+        <div class="specifications-box">
+          <div class="spec-name">Customer Service</div>
+          <div class="spec-progress">
+            <span data-progress="95%"></span>
+          </div>
+          <div class="spec-text">
+            <p>you can call us any time and we help you for any problem and will try to solve it</p>
+          </div>
+        </div>
+        <div class="specifications-box">
+          <div class="spec-name">Degree</div>
+          <div class="spec-progress">
+            <span data-progress="88%"></span>
+          </div>
+          <div class="spec-text">
+            <p>cooling degree is 6c </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end our specifications -->
+
+    <!-- statr contact us  -->
+    <div class="contact">
+      <div class="container">
+        <div class="heading">
+          <h2>Contact Us</h2>
+        </div>
+        <form action="">
+          <div class="left">
+            <input type="text" placeholder="Your Name" name="username" required>
+            <input type="text" placeholder="Your Phone" name="phone" >
+            <input type="email" placeholder="Your Email"  name="email" required>
+          </div>
+          <div class="right">
+            <input type="text" placeholder="Your Subject" name="subject">
+            <textarea name="massage" placeholder="Your Massege"></textarea>
+          </div>
+          <div class="submit">
+            <input type="submit" value="Send">
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- end contact us  -->
+
+    <!-- start  footer   -->
+    <div class="footer">Created By Ahmed Rashad</div>
+    <!-- end  footer   -->
+
+    <script src="js/main.js" ></script>
+</body>
+</html>
