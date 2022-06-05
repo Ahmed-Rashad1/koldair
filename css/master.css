@@ -687,7 +687,7 @@ body {
 @media (max-width: 767px) {
     .popup-box {
         width: 550px;
-        height: 600px;
+        height: 650px;
     }
     .popup-box img {
         height: 70%;
