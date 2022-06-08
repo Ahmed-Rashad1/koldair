@@ -539,7 +539,6 @@ body {
     text-align: center;
     width: 25%;
     line-height: 35px;
-    margin: 20px;
 }
 @media (max-width: 767px) {
     .specifications .spec-name {
@@ -784,6 +783,7 @@ body {
     border: 1px solid var(--main-color);
     background: #fff;
     position: relative;
+    text-align: center;
 }
 .timeline .timeline-content h3 {
     font-weight: bold;
@@ -994,7 +994,7 @@ body {
 .footer {
     background-color: var(--main-color);
     color: #eee;
-    padding: 15px;
+    padding: 50px;
     text-align: center;
 }
 /* end  footer */
