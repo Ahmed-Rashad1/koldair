@@ -539,6 +539,7 @@ body {
     text-align: center;
     width: 25%;
     line-height: 35px;
+    padding: 15px;
 }
 @media (max-width: 767px) {
     .specifications .spec-name {
@@ -546,6 +547,7 @@ body {
         font-size: 16px;
         margin-bottom: 15px;
         line-height: 20px;
+        padding: 10px;
     }
 }  
 .spec-progress {
